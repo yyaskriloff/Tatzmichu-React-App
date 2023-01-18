@@ -5,7 +5,7 @@ const iconStyles = 'text-2xl text-center w-full'
 
 export default function Navbar({ children, open, toggleNav }) {
     return (
-        <div className='flex flex-row justify-between relative h-18 p-2'>
+        <nav className='flex flex-row justify-between relative h-18 p-2'>
             <div>
                 <Image
                     src="/favicon.ico"
@@ -24,6 +24,6 @@ export default function Navbar({ children, open, toggleNav }) {
                 </div>
             </div>
 
-        </div>
+        </nav>
     )
 }
