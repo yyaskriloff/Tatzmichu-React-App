@@ -1,9 +1,9 @@
 import Section from '../components/Section'
 import { H1, H2, Text } from '../components/text'
 import { FaBan } from "react-icons/fa";
-import Image from '../components/image'
+import Image from '../components/Image'
 
-function Sign({ children }) {
+function BanSign({ children }) {
     return (
         <div className="flex flex-row justify-start items-center">
             <FaBan className="text-light-purple mr-1 text-2xl" />
@@ -22,9 +22,9 @@ export default function Signs() {
                 <div>
                     <div>
                         <div>
-                            <Sign>She couldn’t get up in the morning.</Sign>
-                            <Sign>She couldn’t concentrate in class.</Sign>
-                            <Sign>She was anxious in the dorm.</Sign>
+                            <BanSign>She couldn’t get up in the morning.</BanSign>
+                            <BanSign>She couldn’t concentrate in class.</BanSign>
+                            <BanSign>She was anxious in the dorm.</BanSign>
                         </div>
                         <Text>Her teachers realized something was wrong. Concerned, they reached out.</Text>
                         <H2>She needed therapy.</H2>
