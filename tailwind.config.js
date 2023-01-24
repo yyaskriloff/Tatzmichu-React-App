@@ -11,11 +11,18 @@ module.exports = {
     extend: {
       colors: {
         'light-green': "#afde15",
-        'light-purple': "#926efc"
+        'light-purple': "#926efc",
+        'dark-purple': '#320198'
       },
       transitionProperty: {
         'height': 'height',
         'max-height': 'max-height'
+      },
+      fontFamily: {
+        payton: ['Paytone One', "sans-serif"]
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/top-background.png')",
       }
     },
   },
