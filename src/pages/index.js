@@ -4,8 +4,9 @@ import Head from 'next/head'
 import useToggleState from '../hooks/useToggleState'
 import Button from '../components/Button'
 import Header from '../layout/Header'
-import { H1, H2, H3, Text, SmallText } from '../components/text'
+import { H1, H2, Text } from '../components/text'
 import Signs from '../layout/Signs'
+import OneStudent from '../layout/OneStudent'
 import Image from '../components/Image'
 
 
@@ -36,6 +37,7 @@ export default function Home() {
           girls in Israel</Text>
       </Header>
       <Signs />
+      <OneStudent />
     </>
   )
 }
