@@ -1,7 +1,7 @@
-import Section from '../components/Section'
-import { H1, H2, Text } from '../components/text'
-import Image from '../components/Image'
-import Button from '../components/Button'
+import Section from '@/components/Section'
+import { H1, H2, Text } from '@/components/text'
+import Image from '@/components/Image'
+import Button from '@/components/Button'
 
 export default function OneStudent() {
     return (

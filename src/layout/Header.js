@@ -1,4 +1,4 @@
-import Image from '../components/Image'
+import Image from '@/components/Image'
 
 export default function Header({ page, children }) {
     let [firstHeader, secondHeader, text] = children

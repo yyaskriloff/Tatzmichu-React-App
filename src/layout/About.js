@@ -1,6 +1,6 @@
-import Section from '../components/Section'
-import Image from '../components/Image'
-import { H1, H2, Text } from '../components/text'
+import Section from '@/components/Section'
+import Image from '@/components/Image'
+import { H1, H2, Text } from '@/components/text'
 
 export default function about() {
     return (

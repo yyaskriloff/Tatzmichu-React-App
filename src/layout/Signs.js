@@ -1,7 +1,7 @@
-import Section from '../components/Section'
-import { H1, H2, Text } from '../components/text'
+import Section from '@/components/Section'
+import { H1, H2, Text } from '@/components/text'
 import { FaBan } from "react-icons/fa";
-import Image from '../components/Image'
+import Image from '@/components/Image'
 
 function BanSign({ children }) {
     return (

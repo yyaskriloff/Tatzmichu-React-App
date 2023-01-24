@@ -1,7 +1,7 @@
-import Section from '../components/Section';
-import ChanceCard from '../components/ChanceCard';
-import { H1 } from '../components/text'
-import Button from '../components/Button'
+import Section from '@/components/Section';
+import ChanceCard from '@/components/ChanceCard';
+import { H1 } from '@/components/text'
+import Button from '@/components/Button'
 
 export default function Chance() {
     return (
