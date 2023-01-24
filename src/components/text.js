@@ -12,6 +12,10 @@ export function H3({ light, children }) {
     return (<h3 className={`text-2xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h3 >)
 }
 
+export function H4({ light, children }) {
+    return (<h4 className={`text-xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h4 >)
+}
+
 export function Text({ children, className }) {
     return (<p className={`text-xl leading-7 font-normal ${className}`} > {children}</p>)
 }

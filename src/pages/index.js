@@ -7,7 +7,13 @@ import Header from '../layout/Header'
 import { H1, H2, Text } from '../components/text'
 import Signs from '../layout/Signs'
 import OneStudent from '../layout/OneStudent'
+import About from '../layout/About'
 import Image from '../components/Image'
+import Chance from '../layout/Chance'
+import Endorsment from '../layout/Endorsment'
+import Process from '../layout/Process'
+import Staff from '../layout/Staff'
+import Contact from '../layout/Contact'
 
 
 const navLinkStyles = "py-4 text-lg xl:mx-8"
@@ -36,8 +42,17 @@ export default function Home() {
         <Text className="my-7">Subsidizing therapy costs for seminary
           girls in Israel</Text>
       </Header>
-      <Signs />
-      <OneStudent />
+      <main>
+        <Signs />
+        <OneStudent />
+        <About />
+        <Chance />
+        <Endorsment />
+        <Process />
+        <Staff />
+        <Contact />
+      </main>
+      {/* <Footer /> */}
     </>
   )
 }
