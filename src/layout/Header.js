@@ -5,7 +5,7 @@ export default function Header({ page, children }) {
 
     return (
         <header>
-            <div className="bg-hero-pattern bg-no-repeat bg-origin-padding bg-cover h-auto flex flex-col justify-end min-h-[650px] max- px-2 pb-4">
+            <div className="bg-hero-pattern bg-no-repeat bg-origin-padding bg-cover h-auto flex flex-col justify-end min-h-[600px] max- px-2 pb-4">
                 <div className="flex flex-col px-3 text-center">
                     {firstHeader}
                     {secondHeader}

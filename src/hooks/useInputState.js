@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // eslint-disable-next-line import/no-anonymous-default-export
-export default initVal => {
+export default function useInputState(initVal = "") {
     const [value, setValue] = useState(initVal)
     const handleChange = e => {
         setValue(e.target.value)

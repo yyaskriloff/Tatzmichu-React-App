@@ -1,6 +1,6 @@
 import Section from "@/components/Section"
 import { H1, H4 } from '@/components/text'
-import Button from '@/components/button'
+import Button from '@/components/Button'
 import Link from 'next/link'
 export default function Endorsment() {
     return (
