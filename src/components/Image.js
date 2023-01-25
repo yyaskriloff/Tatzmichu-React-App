@@ -1,11 +1,8 @@
 import { default as Nimage } from 'next/image'
 
-export default function Image({ className = 'w-96 h-96', src = "therapy.png" }) {
-    if (src == "Lock.png") {
-        console.log(className)
-    }
+export default function Image({ className = 'w-80 h-96', src = "therapy.png", position = "relative" }) {
     return (
-        <div className={`relative flex flex-col items-center justify-center ${className}`}>
+        <div className={`${className} ${position} flex flex-col items-center justify-center`}>
             <Nimage
                 src={`/${src}`}
                 fill

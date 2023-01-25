@@ -1,25 +1,26 @@
 
 
-export function H1({ light, children }) {
-    return (<h1 className={`text-3xl my-2 font-payton leading-9 font-medium tracking-wider ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h1 >)
+export function H1({ light, children, className }) {
+    return (<h1 className={`${className} text-center text-3xl font-payton leading-9 font-medium tracking-[0.125em] ${!light ? "text-dark-purple" : "text-light-purple"} `} > {children}</ h1 >)
 }
 
-export function H2({ light, children }) {
-    return (<h2 className={`text-3xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h2 >)
+export function H2({ light, children, className }) {
+    console.log(className)
+    return (<h2 className={`${className} text-center text-3xl font-open font-semibold leading-8 tracking-[0.125em]  ${!light ? "text-dark-purple" : "text-light-purple"} `} > {children}</ h2 >)
 }
 
-export function H3({ light, children }) {
-    return (<h3 className={`text-2xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h3 >)
+export function H3({ light, children, className }) {
+    return (<h3 className={`${className} text-2xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h3 >)
 }
 
-export function H4({ light, children }) {
-    return (<h4 className={`text-xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h4 >)
+export function H4({ light, children, className }) {
+    return (<h4 className={`${className} text-xl font-bold ${!light ? "text-dark-purple" : "text-light-purple"}`} > {children}</ h4 >)
 }
 
 export function Text({ children, className }) {
-    return (<p className={`text-xl leading-7 font-normal ${className}`} > {children}</p>)
+    return (<p className={`${className} text-base font-open leading-7 font-normal tracking-[0.125em]`} > {children}</p>)
 }
 
-export function SmallText({ children }) {
-    return (<h1 className={`text-lg  `} > {children}</ h1 >)
+export function SmallText({ children, className }) {
+    return (<h1 className={`${className} text-lg  `} > {children}</ h1 >)
 }

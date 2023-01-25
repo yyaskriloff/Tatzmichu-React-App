@@ -1,5 +1,5 @@
-export default function Button({ children }) {
+export default function Button({ children, className }) {
     return (
-        <button className="transition-colors duration-300 bg-light-green py-2 px-12 rounded-3xl hover:bg-light-purple">{children}</button>
+        <button className={`${className} transition-colors duration-300 bg-light-green font-bold font-open text-white py-4 px-6 rounded-full hover:bg-light-purple tracking-[0.125em] text-base`} > {children}</button >
     )
 }

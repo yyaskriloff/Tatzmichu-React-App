@@ -15,13 +15,11 @@ export default function useFormState(state = "active", errValue = false) {
 
     async function onSubmit(...inputs) {
         if (value == "pending") {
-            console.log("prevent")
             return
         }
 
         const [Name, Email, Message] = inputs
         for (let input of inputs) {
-            console.log(input)
             if (input == "") {
                 setError("Please fill out all fields.")
                 return
