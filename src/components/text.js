@@ -5,7 +5,6 @@ export function H1({ light, children, className }) {
 }
 
 export function H2({ light, children, className }) {
-    console.log(className)
     return (<h2 className={`${className} text-center text-3xl font-open font-semibold leading-8 tracking-[0.125em]  ${!light ? "text-dark-purple" : "text-light-purple"} `} > {children}</ h2 >)
 }
 
